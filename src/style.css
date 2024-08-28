@@ -1,0 +1,48 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.header .logo-bank {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    width: 45px;
+    height: 42px;
+}
+
+.header .logo-bank h1 {
+    margin-left: 10px;
+}
+
+.header .menus {
+    display: flex;
+    align-items: center;
+}
+
+.header .menus h2 a {
+    padding: 11px 20px;
+    /* a primeira propriedade padding: 11px define cima e baixo;
+    a segunda propriedade padding: 20px define esquerda e direita; */
+    transition: 0.5s ease-out;
+}
+
+.header .menus h2 a:hover {
+    background-color: #5BC241;
+    color: #ffffff;
+}
+
+.header .menus a.cadastro {
+    background-color: #5BC241;
+    border-radius: 20px;
+    font-weight: 400;
+    margin-left: 25px;
+    padding: 20px;
+}
