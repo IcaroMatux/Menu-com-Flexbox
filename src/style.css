@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     font-weight: 800;
-    width: 45px;
+    /* width: 45px; */
     height: 42px;
 }
 
@@ -39,7 +39,7 @@ body {
     color: #ffffff;
 }
 
-.header .menus a.cadastro {
+.header .menus a.Cadastro {
     background-color: #5BC241;
     border-radius: 20px;
     font-weight: 400;
